@@ -12,3 +12,5 @@
 {"level":"info","message":"Connected to mongodb+srv://david:david@cluster0.pmlo6.mongodb.net/vidly?retryWrites=true&w=majority MongoDb..."}
 {"level":"info","message":"Listing to port 3000..."}
 {"level":"info","message":"Connected to mongodb+srv://david:david@cluster0.pmlo6.mongodb.net/vidly?retryWrites=true&w=majority MongoDb..."}
+{"level":"info","message":"Listing to port 3000..."}
+{"level":"info","message":"Connected to mongodb+srv://david:david@cluster0.pmlo6.mongodb.net/vidly?retryWrites=true&w=majority MongoDb..."}
