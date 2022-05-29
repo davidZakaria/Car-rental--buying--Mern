@@ -3,6 +3,7 @@ const express = require('express')
 const router = express.Router();
 const {Customer, validate} = require('../models/customers');
 
+
 //RESTful APIs
 router.get('/', async (req,res)=>{
     const result = await Customer.find().sort({name:1});

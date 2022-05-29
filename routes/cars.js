@@ -51,9 +51,9 @@ router.put('/:id',async (req,res)=>{
     const car = await Car.findByIdAndUpdate(req.params.id,{
         $set: {
             title: req.body.title,
-            carmodel: {
-                _id: req.body.carmodel.id,
-                name: req.body.carmodel.name
+            carmodels: {
+                _id: req.body.carmodels.id,
+                name: req.body.carmodels.name
             },
             numberInStock: req.body.numberInStock,
             dailyRentalRate: req.body.dailyRentalRate

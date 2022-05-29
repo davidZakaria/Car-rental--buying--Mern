@@ -84,9 +84,9 @@ router.put('/:id',async (req,res)=>{
     const rental = await Rental.findByIdAndUpdate(req.params.id,{
         $set: {
             title: req.body.title,
-            genre: {
-                _id: req.body.genre.id,
-                name: req.body.genre.name
+            carmodels: {
+                _id: req.body.carmodels.id,
+                name: req.body.carmodels.name
             },
             numberInStock: req.body.numberInStock,
             dailyRentalRate: req.body.dailyRentalRate
